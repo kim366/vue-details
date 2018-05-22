@@ -4,12 +4,14 @@ Proper support for `<details>` tag in Vue.js including `v-model` attribute.
 
 ## Get Started
 
-Install with
+### Using Node.js
+
+Install package
 ```
 npm install vue-details
 ```
 
-Initialize globally using
+Initialize globally
 ```js
 import Vue from 'vue';
 import VueDetails from 'vue-details';
@@ -18,6 +20,26 @@ Vue.component('v-details', VueDetails);
 ```
 
 or locally as shown in the example below.
+
+### Using CDN
+
+Load script
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/vue-details@1.0.1"></script>
+```
+
+or
+
+```html
+<script src="https://unpkg.com/vue-details@1.0.0/src/vue-details.js"></script>
+```
+
+Register component
+
+```js
+Vue.component('v-details', VueDetails);
+```
 
 ## An Example
 
