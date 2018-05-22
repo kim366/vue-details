@@ -2,10 +2,7 @@
   "name": "vue-details",
   "version": "1.0.0",
   "description": "Proper support for `<details>` tag in Vue.js including `v-model` attribute",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/vue-details.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kim366/VueDetails.git"
