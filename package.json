@@ -1,0 +1,29 @@
+{
+  "name": "vue-details",
+  "version": "1.0.0",
+  "description": "Proper support for `<details>` tag in Vue.js including `v-model` attribute",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kim366/VueDetails.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue.js",
+    "component",
+    "details",
+    "html5",
+    "html",
+    "v-model"
+  ],
+  "author": "Kim Schmider",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kim366/VueDetails/issues"
+  },
+  "homepage": "https://github.com/kim366/VueDetails#readme"
+}
