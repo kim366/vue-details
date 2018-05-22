@@ -2,7 +2,10 @@
   "name": "vue-details",
   "version": "1.0.0",
   "description": "Proper support for `<details>` tag in Vue.js including `v-model` attribute",
-  "main": "src/vue-details.js",
+  "main": "dist/vue-details.common.js",
+  "module": "dist/vue-details.esm.js",
+  "unpkg": "dist/vue-details.js",
+  "jsdelivr": "dist/vue-details.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kim366/VueDetails.git"
