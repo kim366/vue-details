@@ -1,1 +1,1 @@
-module.exports = require('@/src/vue-details.js');
+module.exports = require('../src/vue-details.js');

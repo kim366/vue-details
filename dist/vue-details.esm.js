@@ -1,1 +1,1 @@
-export require('@/src/vue-details');
+export default require('../src/vue-details.js');
