@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/vue-details.svg)](https://www.npmjs.com/package/vue-details)
+
 # Vue Details
 
 Proper support for `<details>` tag in Vue.js including `v-model` attribute.
