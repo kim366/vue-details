@@ -9,7 +9,7 @@
     "url": "git+https://github.com/kim366/VueDetails.git"
   },
   "scripts": {
-    "build": "uglify -s src/index.js -o dist/vue-details.min.js",
+    "build": "uglify src/index.js -o dist/vue-details.min.js",
     "prepare": "npm run build"
   },
   "keywords": [
@@ -22,7 +22,7 @@
     "html",
     "v-model"
   ],
-  "author": "Kim Schmider",
+  "author": "Kim Schmider <kontakt@schmider.kim> (https://schmider.kim)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kim366/VueDetails/issues"
