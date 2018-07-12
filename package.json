@@ -2,13 +2,15 @@
   "name": "vue-details",
   "version": "1.0.7",
   "description": "Proper support for `<details>` tag in Vue.js including `v-model` attribute",
-  "main": "dist/vue-details.common.js",
-  "module": "dist/vue-details.esm.js",
-  "unpkg": "dist/vue-details.min.js",
+  "main": "dist/vue-details.min.js",
   "jsdelivr": "dist/vue-details.min.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kim366/VueDetails.git"
+  },
+  "scripts": {
+    "build": "uglify -s src/index.js -o dist/vue-details.min.js",
+    "prepare": "npm run build"
   },
   "keywords": [
     "vue",
@@ -25,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/kim366/VueDetails/issues"
   },
-  "homepage": "https://github.com/kim366/VueDetails#readme"
+  "homepage": "https://github.com/kim366/VueDetails#readme",
+  "devDependencies": {
+    "uglify-js": "^3.4.4"
+  },
+  "dependencies": {}
 }

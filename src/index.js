@@ -1,12 +1,12 @@
-(function(root, factory) {
+(function(factory) {
   if (typeof exports === 'object')
     module.exports = factory();
   else
-    root.VueDetails = factory();
-})(this, function() {
+    window.VueDetails = factory();
+})(function() {
   return {
     name: 'v-details',
-    render(h) {
+    render: function(h) {
       return h('details', {
         on: {
           toggle: this.toggle
@@ -18,7 +18,7 @@
       event: 'change'
     },
     watch: {
-      open(val) {
+      open: function(val) {
         this.updateVal(val);
       }
     },
@@ -26,17 +26,17 @@
       open: Boolean
     },
     methods: {
-      toggle(e) {
+      toggle: function(e) {
         this.$emit('change', e.target.open);
       },
-      updateVal(open) {
+      updateVal: function(open) {
         if (open)
           this.$el.setAttribute('open', '');
         else
           this.$el.removeAttribute('open');
       }
     },
-    mounted() {
+    mounted: function() {
       this.updateVal(this.open);
     }
   } 
