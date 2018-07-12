@@ -9,7 +9,7 @@
     "url": "git+https://github.com/kim366/VueDetails.git"
   },
   "scripts": {
-    "build": "uglify src/index.js -o dist/vue-details.min.js",
+    "build": "uglifyjs src/index.js -o dist/vue-details.min.js",
     "prepare": "npm run build"
   },
   "keywords": [
