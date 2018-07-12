@@ -28,13 +28,13 @@ or locally as shown in the example below.
 Load script
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/vue-details@1.0.7"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-details"></script>
 ```
 
 or
 
 ```html
-<script src="https://unpkg.com/vue-details@1.0.7/dist/vue-details.min.js"></script>
+<script src="https://unpkg.com/vue-details/dist/vue-details.min.js"></script>
 ```
 
 Register component
