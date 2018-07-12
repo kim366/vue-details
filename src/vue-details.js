@@ -1,9 +1,12 @@
-module.exports = {
-  template: `
-    <details @toggle="toggle">
-      <slot />
-    </details>
-  `,
+export default {
+  name: 'v-details',
+  render(h) {
+    return h('details', {
+      on: {
+        toggle: this.toggle
+      }
+    }, this.$slots.default);
+  },
   model: {
     prop: 'open',
     event: 'change'
@@ -18,8 +21,7 @@ module.exports = {
   },
   methods: {
     toggle(e) {
-      this.open = e.target.open;
-      this.$emit('change', this.open);
+      this.$emit('change', e.target.open);
     },
     updateVal(open) {
       if (open)
