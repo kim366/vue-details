@@ -30,10 +30,7 @@
         this.$emit('change', e.target.open);
       },
       updateVal: function(open) {
-        if (open)
-          this.$el.setAttribute('open', '');
-        else
-          this.$el.removeAttribute('open');
+        this.$el.open = open;
       }
     },
     mounted: function() {

@@ -1,6 +1,6 @@
 {
   "name": "vue-details",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Proper support for `<details>` tag in Vue.js including `v-model` attribute",
   "main": "dist/vue-details.min.js",
   "jsdelivr": "dist/vue-details.min.js",
